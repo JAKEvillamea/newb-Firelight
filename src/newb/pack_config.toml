@@ -1,8 +1,8 @@
-name = "Newb X Legacy"
-version = [0, 15, 0]
+name = "Newb Firelight"
+version = [0, 1, 5]
 min_supported_mc_version = [1, 20, 80]
 url = "https://devendrn.github.io/newb-shader/"
-authors = ["devendrn"]
+authors = ["JC GAMING7125","devendrn"]
 materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "SunMoon", "RenderChunk", "Actor"]
 
 [description]
@@ -13,11 +13,11 @@ long = '''
 %v
 §3https://devendrn.github.io/newb-shader/
 '''
-short = "Legacy port of Newb Shader for RenderDragon"
+short = "Newb FIRELIGHT Shader for RenderDragon"
 
 [uuid] # Use https://www.uuidgenerator.net/version4
-header = "95f774cf-4afa-73e7-a21a-72146307b1d2"
-module = "900f3d8b-37b4-465f-8f56-941687e36c35"
+header = "f02210f0-0cfc-4c53-8146-8966ccdc5008"
+module = "b16ab62e-d68c-489d-a73c-1f9670785d34"
 
 [info]
 # %a = authors
@@ -40,10 +40,33 @@ Rounded Clouds
 '''
 
 [[subpack]]
-define = "BOX_CLOUDS"
+define = "LOW"
+materials = ["Clouds","RenderChunk"]
+description = '''
+low
+'''
+
+[[subpack]]
+define = "LOW_QUALITY_MULTILAYER_CLOUDS"
+materials = ["Clouds","RenderChunk"]
+description = '''
+Low Quality Multiplayer clouds
+(multilayer clouds for low device)
+'''
+
+[[subpack]]
+define = "MULTILAYER_CLOUD"
+materials = ["Clouds"]
+description = '''
+Multiplayer clouds
+(can cause lag for low device)
+'''
+
+[[subpack]]
+define = "VANILLA_CLOUDS"
 materials = ["Clouds", "RenderChunk"]
 description = '''
-Box Clouds
+Vanilla Clouds
 '''
 
 [[subpack]]
