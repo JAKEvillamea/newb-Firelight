@@ -1,9 +1,9 @@
 name = "Newb Firelight"
-version = [0, 1, 5]
+version = [0, 1, 7]
 min_supported_mc_version = [1, 20, 80]
 url = "https://devendrn.github.io/newb-shader/"
-authors = ["JC GAMING7125","devendrn"]
-materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "SunMoon", "RenderChunk", "Actor"]
+authors = ["JC_GAMING7125","devendrn"]
+materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "Stars", "SunMoon", "RenderChunk", "Actor"]
 
 [description]
 # %w = patch warning, %v = version
@@ -13,7 +13,7 @@ long = '''
 %v
 §3https://devendrn.github.io/newb-shader/
 '''
-short = "Newb FIRELIGHT Shader for RenderDragon"
+short = "Newb Firelight Shader for RenderDragon"
 
 [uuid] # Use https://www.uuidgenerator.net/version4
 header = "f02210f0-0cfc-4c53-8146-8966ccdc5008"
@@ -67,6 +67,14 @@ define = "VANILLA_CLOUDS"
 materials = ["Clouds", "RenderChunk"]
 description = '''
 Vanilla Clouds
+'''
+
+[[subpack]]
+define = "COMPLEMENTARY_REMAGINED_CLOUDS"
+materials = ["Clouds", "RenderChunk"]
+description = '''
+§3COMPLEMENTARY_REMAGINED_CLOUDS§r
+enhance the vanilla clouds
 '''
 
 [[subpack]]
