@@ -62,7 +62,7 @@
 
 /* Fog */
 #define NL_FOG_TYPE 2             // 0:no fog, 1:vanilla, 2:smoother vanilla
-#define NL_MIST_DENSITY 1.18      // 0.0 no mist ~ 1.0 misty
+#define NL_MIST_DENSITY 1.98      // 0.0 no mist ~ 1.0 misty
 #define NL_RAIN_MIST_OPACITY 0.20 // [toggle] 0.04 very subtle ~ 0.5 thick rain mist blow
 
 /* Sky colors - zenith=top, horizon=bottom */
@@ -73,7 +73,7 @@
 #define NL_RAIN_ZENITH_COL   vec3(0.85,0.9,1.0)
 #define NL_RAIN_HORIZON_COL  vec3(1.0,1.0,1.0)
 #define NL_END_ZENITH_COL    vec3(0.08,0.001,0.1)
-#define NL_END_HORIZON_COL   vec3(0.6,0.02,0.6)
+#define NL_END_HORIZON_COL   vec3(0.6,0.02,1.6)
 #define NL_DAWN_ZENITH_COL   vec3(0.0,0.0,0.1)
 #define NL_DAWN_HORIZON_COL  vec3(1.000,0.4,0.2)
 #define NL_DAWN_EDGE_COL     vec3(1.0,0.651,0.278)
@@ -84,7 +84,7 @@
 #define NL_RAINBOW_RAIN 1.0  // 0.5 subtle ~ 2.0 bright during rain
 
 /* Ore glow intensity */
-#define NL_GLOW_TEX 2.2  // 0.4 weak ~ 8.0 bright
+#define NL_GLOW_TEX 9.6  // 0.4 weak ~ 8.0 bright
 #define NL_GLOW_SHIMMER  // [toggle] shimmer effect
 #define NL_GLOW_LEAK 0.6 // [toggle] 0.08 subtle ~ 1.0 100% brightness of NL_GLOW_TEX
 
@@ -100,7 +100,7 @@
 #define NL_WATER_TEX_OPACITY 2.73  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
 #define NL_WATER_FOG_FADE         // [toggle] fog fade for water
-#define NL_WATER_CLOUD_REFLECTION // [toggle] simple clouds/aurora reflection
+//#define NL_WATER_CLOUD_REFLECTION // [toggle] simple clouds/aurora reflection
 #define NL_WATER_TINT vec3(0.52,0.9,0.45)
 
 /* Underwater */
