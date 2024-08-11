@@ -95,7 +95,7 @@ vec3 renderEndSky(vec3 horizonCol, vec3 zenithCol, vec3 viewDir, float t) {
   t *= 0.1;
   float a = atan2(viewDir.x, viewDir.z);
 
-  float n1 = 0.5 + 0.5*sin(20.0*a + t + 1.0*viewDir.x*viewDir.y);
+  float n1 = 0.5 + 0.5*sin(3.0*a + t + 10.0*viewDir.x*viewDir.y);
   float n2 = 0.5 + 0.5*sin(5.0*a + 0.5*t + 5.0*n1 + 0.1*sin(40.0*a -4.0*t));
     
   float waves = 0.7*n2*n1 + 0.3*n1;
@@ -104,7 +104,7 @@ vec3 renderEndSky(vec3 horizonCol, vec3 zenithCol, vec3 viewDir, float t) {
   float streaks = waves*(1.0 - grad*grad*grad);
   streaks += (1.0-streaks)*smoothstep(1.0-waves, -1.0, viewDir.y);
 
-  float f = 0.87*streaks + 0.7*smoothstep(1.0, -0.5, viewDir.y);
+  float f = 0.3*streaks + 0.7*smoothstep(1.0, -0.5, viewDir.y);
   float h = streaks*streaks;
   float g = h*h;
   g *= g;
