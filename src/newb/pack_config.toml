@@ -3,7 +3,7 @@ version = [0, 1, 7]
 min_supported_mc_version = [1, 20, 80]
 url = "https://devendrn.github.io/newb-shader/"
 authors = ["JC_GAMING7125","devendrn"]
-materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "SunMoon", "RenderChunk", "Actor"]
+materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "Stars", "SunMoon", "RenderChunk", "Actor"]
 
 [description]
 # %w = patch warning, %v = version
