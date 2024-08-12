@@ -3,7 +3,7 @@ version = [0, 1, 7]
 min_supported_mc_version = [1, 20, 80]
 url = "https://devendrn.github.io/newb-shader/"
 authors = ["JC_GAMING7125","devendrn"]
-materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "Stars", "SunMoon", "RenderChunk", "Actor"]
+materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "SunMoon", "RenderChunk", "Actor"]
 
 [description]
 # %w = patch warning, %v = version
@@ -16,8 +16,8 @@ long = '''
 short = "Newb Firelight Shader for RenderDragon"
 
 [uuid] # Use https://www.uuidgenerator.net/version4
-header = "f02210f0-0cfc-4c53-8146-8966ccdc5008"
-module = "b16ab62e-d68c-489d-a73c-1f9670785d34"
+header = "f02210f0-0cfc-4c53-8146-8967ccdc5008"
+module = "b16ab62e-d68c-489d-a73c-1f9770785d34"
 
 [info]
 # %a = authors
