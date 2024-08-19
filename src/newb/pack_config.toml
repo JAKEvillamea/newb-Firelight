@@ -1,31 +1,23 @@
 name = "Newb Firelight"
-version = [0, 1, 7]
-min_supported_mc_version = [1, 20, 80]
-url = "https://devendrn.github.io/newb-shader/"
-authors = ["JC_GAMING7125","devendrn"]
-materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "SunMoon", "RenderChunk", "Actor"]
-
-[description]
-# %w = patch warning, %v = version
-long = '''
+version = [0, 1, 8]
+min_supported_mc_version = [1, 21, 20]
+description = '''
 §c%w
 §7- An enchanced vanilla shader for Minecraft!
 %v
 §3https://devendrn.github.io/newb-shader/
-'''
-short = "Newb Firelight Shader for RenderDragon"
+''' # %w = patch warning, %v = version
+authors = ["JC GAMING7125","devendrn"]
+url = "https://devendrn.github.io/newb-shader/"
+uuid = "b735b8a4-d20c-4214-902e-222cd147a39b" # Use https://www.uuidgenerator.net/version4
+materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "SunMoon", "RenderChunk", "Actor"]
 
-[uuid] # Use https://www.uuidgenerator.net/version4
-header = "f02210f0-0cfc-4c53-8146-8967ccdc5008"
-module = "b16ab62e-d68c-489d-a73c-1f9770785d34"
-
-[info]
-# %a = authors
+[info] 
 copyright = '''
 Copyright (c) %a
 
 **Important Note:** Redistribution of this resource pack with links other than the official ones provided by the creator is strictly prohibited.
-'''
+''' # %a = authors
 credits = '''
 '''
 
@@ -73,8 +65,16 @@ Vanilla Clouds
 define = "COMPLEMENTARY_REMAGINED_CLOUDS"
 materials = ["Clouds", "RenderChunk"]
 description = '''
-§3COMPLEMENTARY_REMAGINED_CLOUDS§r
+§2COMPLEMENTARY_REMAGINED_CLOUDS§r
 enhance the vanilla clouds
+'''
+
+[[subpack]]
+define = "APOCALYPSE"
+materials = ["Actor","Sky","EndSky","RenderChunk","Clouds"]
+description = '''
+§4Apocalypse§r
+make your game look like zombie apocalypse
 '''
 
 [[subpack]]
