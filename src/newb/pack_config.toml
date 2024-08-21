@@ -106,6 +106,13 @@ No wave effects
 '''
 
 [[subpack]]
+define = "ALWAYS_REFLECTION"
+materials = ["RenderChunk"]
+description = '''
+Always Reflection 
+'''
+
+[[subpack]]
 define = "DEFAULT"
 materials = []
 description = '''
