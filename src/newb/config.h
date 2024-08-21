@@ -273,8 +273,8 @@
   #undef NL_DAWN_HORIZON_COL
   #undef NL_DAWN_EDGE_COL
   #define NL_TONEMAP_TYPE 4
-  #define NL_CONTRAST 2.73
-  #define NL_EXPOSURE 0.73
+  #define NL_CONTRAST 1.73
+  #define NL_EXPOSURE 1.3
   #define NL_MIST_DENSITY 9.98
   #define NL_RAIN_MIST_OPACITY 0.90
   #define NL_BLINKING_TORCH
