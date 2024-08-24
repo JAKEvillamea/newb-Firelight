@@ -43,11 +43,17 @@ vec4 renderCloudsSimple(vec3 pos, highp float t, float rain, vec3 zenithCol, vec
 
 // rounded clouds 3D density map
 float cloudDf(vec3 pos, float rain) {
+  #if NL_CLOUD2_NOISE_TYPE == 1
+  pos.xz += 0.4*noise1(7.0*pos.xyz);
+  pos.xz += 1.0*noise1(3.0*pos.xyz);
+  #elif NL_CLOUD2_NOISE_TYPE == 2
+  pos.xz += 1.0*noise1(3.0*pos.xyz);
+  #endif
   vec2 p0 = floor(pos.xz);
   vec2 u = smoothstep(0.999*NL_CLOUD2_SHAPE, 1.0, pos.xz-p0);
   
   // rain transition
-  vec2 t = vec2(0.1001+0.2*rain, 0.1+0.2*rain*rain);
+  vec2 t = vec2(0.2001+0.2*rain, 0.2+0.2*rain*rain);
 
   float n = mix(
     mix(randt(p0, t),randt(p0+vec2(1.0,0.0), t), u.x),

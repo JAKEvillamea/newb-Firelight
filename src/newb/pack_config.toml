@@ -26,21 +26,21 @@ credits = '''
 
 [[subpack]]
 define = "ROUNDED_CLOUDS"
-materials = ["Clouds"]
+materials = ["Actor","LegacyCubemap","RenderChunk","Sky","SunMoon","Clouds","EndSky"]
 description = '''
 Rounded Clouds
 '''
 
 [[subpack]]
 define = "LOW"
-materials = ["Clouds","RenderChunk"]
+materials = ["Actor","LegacyCubemap","RenderChunk","Sky","SunMoon","Clouds","EndSky"]
 description = '''
 low
 '''
 
 [[subpack]]
 define = "LOW_QUALITY_MULTILAYER_CLOUDS"
-materials = ["Clouds","RenderChunk"]
+materials = ["Actor","LegacyCubemap","RenderChunk","Sky","SunMoon","Clouds","EndSky"]
 description = '''
 Low Quality Multiplayer clouds
 (multilayer clouds for low device)
@@ -48,7 +48,7 @@ Low Quality Multiplayer clouds
 
 [[subpack]]
 define = "MULTILAYER_CLOUD"
-materials = ["Clouds"]
+materials = ["Actor","LegacyCubemap","RenderChunk","Sky","SunMoon","Clouds","EndSky"]
 description = '''
 Multiplayer clouds
 (can cause lag for low device)
@@ -56,14 +56,30 @@ Multiplayer clouds
 
 [[subpack]]
 define = "VANILLA_CLOUDS"
-materials = ["Clouds", "RenderChunk"]
+materials = ["Actor","LegacyCubemap","RenderChunk","Sky","SunMoon","Clouds","EndSky"]
 description = '''
 Vanilla Clouds
 '''
 
 [[subpack]]
+define = "VANILLA_MULTILAYER"
+materials = ["Actor","LegacyCubemap","RenderChunk","Sky","SunMoon","Clouds","EndSky"]
+description = '''
+Vanilla Multilayer
+'''
+
+
+[[subpack]]
+define = "REALISTIC_CLOUDS"
+materials = ["Actor","LegacyCubemap","RenderChunk","Sky","SunMoon","Clouds","EndSky"]
+description = '''
+REALISTIC_CLOUDS
+(Can cause more lag for low device)
+'''
+
+[[subpack]]
 define = "COMPLEMENTARY_REMAGINED_CLOUDS"
-materials = ["Clouds", "RenderChunk"]
+materials = ["Actor","LegacyCubemap","RenderChunk","Sky","SunMoon","Clouds","EndSky"]
 description = '''
 §2COMPLEMENTARY_REMAGINED_CLOUDS§r
 enhance the vanilla clouds
@@ -71,7 +87,7 @@ enhance the vanilla clouds
 
 [[subpack]]
 define = "APOCALYPSE"
-materials = ["Actor","Sky","EndSky","RenderChunk","Clouds"]
+materials = ["Actor","LegacyCubemap","RenderChunk","Sky","SunMoon","Clouds","EndSky"]
 description = '''
 §4Apocalypse§r
 make your game look like zombie apocalypse
