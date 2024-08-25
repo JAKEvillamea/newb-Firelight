@@ -63,7 +63,7 @@
 
 /* Fog */
 #define NL_FOG_TYPE 2             // 0:no fog, 1:vanilla, 2:smoother vanilla
-#define NL_MIST_DENSITY 0.98      // 0.0 no mist ~ 1.0 misty
+#define NL_MIST_DENSITY 1.98      // 0.0 no mist ~ 1.0 misty
 #define NL_RAIN_MIST_OPACITY 0.30 // [toggle] 0.04 very subtle ~ 0.5 thick rain mist blow
 
 /* Sky colors - zenith=top, horizon=bottom */
@@ -288,11 +288,12 @@
   #undef NL_DAWN_HORIZON_COL
   #undef NL_DAWN_EDGE_COL
   #undef NL_TINT
+  #undef NL_SATURATION
   #define NL_SUNMOON_SIZE 0.5
   #define NL_TONEMAP_TYPE 4
-  #define NL_CONTRAST 1.73
+  #define NL_CONTRAST 0.73
   #define NL_EXPOSURE 1.3
-  #define NL_MIST_DENSITY 9.98
+  #define NL_MIST_DENSITY 9.0
   #define NL_RAIN_MIST_OPACITY 0.90
   #define NL_BLINKING_TORCH
   #define NL_CLOUD_TYPE 2
@@ -308,6 +309,7 @@
   #define NL_DAWN_HORIZON_COL  vec3(1.0,0.4,0.3)
   #define NL_DAWN_EDGE_COL     vec3(1.0,0.651,0.278)
   #define NL_TINT vec3(0.53,0.55,0.56)
+  #define NL_SATURATION 1.47
 #endif
 
 #ifdef MULTILAYER_CLOUD
