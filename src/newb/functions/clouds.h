@@ -53,7 +53,7 @@ float cloudDf(vec3 pos, float rain) {
   vec2 u = smoothstep(0.999*NL_CLOUD2_SHAPE, 1.0, pos.xz-p0);
   
   // rain transition
-  vec2 t = vec2(0.1001+0.2*rain, 0.1+0.2*rain*rain);
+  vec2 t = vec2(0.2001+0.2*rain, 0.2+0.2*rain*rain);
   
   float n = mix(
     mix(randt(p0, t),randt(p0+vec2(1.0,0.0), t), u.x),
