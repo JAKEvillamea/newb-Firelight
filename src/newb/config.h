@@ -73,8 +73,8 @@
 #define NL_NIGHT_HORIZON_COL vec3(0.1,0.4,0.5)
 #define NL_RAIN_ZENITH_COL   vec3(0.85,0.9,1.0)
 #define NL_RAIN_HORIZON_COL  vec3(1.0,1.0,1.0)
-#define NL_END_ZENITH_COL    vec3(0.008,0.01,0.01)
-#define NL_END_HORIZON_COL   vec3(0.5,0.05,0.9)
+#define NL_END_ZENITH_COL    vec3(0.08,0.001,0.1)
+#define NL_END_HORIZON_COL   vec3(0.6,0.02,1.6)
 #define NL_DAWN_ZENITH_COL   vec3(0.10,0.20,0.78)
 #define NL_DAWN_HORIZON_COL  vec3(1.0,0.5,0.003)
 #define NL_DAWN_EDGE_COL     vec3(1.0,0.5,0.003)
@@ -96,9 +96,9 @@
 //#define NL_EXTRA_PLANTS_WAVE // [toggle] !dont use! wave using texture coords (1.21.0 vanilla 2048x1024)
 
 /* Water */
-#define NL_WATER_TRANSPARENCY 0.8 // 0.0 transparent ~ 1.0 normal
+#define NL_WATER_TRANSPARENCY 0.5 // 0.0 transparent ~ 1.0 normal
 #define NL_WATER_BUMP 0.03        // 0.001 plain ~ 0.2 bumpy water
-#define NL_WATER_TEX_OPACITY 2.30  // 0.0 plain water ~ 1.0 vanilla water texture
+#define NL_WATER_TEX_OPACITY 2.60  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
 #define NL_WATER_FOG_FADE         // [toggle] fog fade for water
 #define NL_WATER_CLOUD_REFLECTION // [toggle] simple clouds/aurora reflection
